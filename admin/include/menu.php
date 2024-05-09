@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <title> Xeloro - Admin & Dashboard Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-        <meta content="MyraStudio" name="author" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-        <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
-
-        <!-- App css -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" />
-
-    </head>
-
-    <body>
-
-        <!-- Begin page -->
-        <div id="layout-wrapper">
-            <div class="header-border"></div>
             <header id="page-topbar">
                 <div class="navbar-header">
 
@@ -257,12 +232,12 @@
                             <li class="menu-title">Menu</li>
 
                             <li>
-                                <a href="index.html" class="waves-effect"><i class="mdi mdi-home-analytics"></i><span
+                                <a href="index.php" class="waves-effect"><i class="mdi mdi-home-analytics"></i><span
                                         class="badge badge-pill badge-primary float-right">7</span><span>Inicio</span></a>
                             </li>
 
                             <li>
-                                <a href="productos.html" class="has-arrow waves-effect"><i
+                                <a href="productos.php" class="has-arrow waves-effect"><i
                                         class="mdi mdi-diamond-stone"></i><span>Productos</span></a>
                                 
                             </li>
@@ -317,13 +292,13 @@
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                                        class="mdi mdi-format-page-break"></i><span>Pages</span></a>
+                                        class="mdi mdi-format-page-break"></i><span>Paginas</span></a>
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li><a href="pages-invoice.html">Invoice</a></li>
                                     <li><a href="pages-starter.html">Starter Page</a></li>
                                     <li><a href="pages-maintenance.html">Maintenance</a></li>
-                                    <li><a href="pages-faqs.html">FAQs</a></li>
-                                    <li><a href="pages-pricing.html">Pricing</a></li>
+                                    <li><a href="preguntasfrecuentes.php">preguntas frecuentes</a></li>
+                                    <li><a href="formulario.php">Formulario</a></li>
                                     <li><a href="pages-login.html">Login</a></li>
                                     <li><a href="pages-register.html">Register</a></li>
                                     <li><a href="pages-recoverpw.html">Recover Password</a></li>
@@ -364,111 +339,3 @@
                     <!-- Sidebar -->
                 </div>
             </div>
-            <!-- Left Sidebar End -->
-
-            <!-- ============================================================== -->
-            <!-- Start right Content here -->
-            <!-- ============================================================== -->
-            <div class="main-content">
-
-                <div class="page-content">
-                    <div class="container-fluid">
-
-                        <!-- start page title -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="page-title-box d-flex align-items-center justify-content-between">
-                                    <h4 class="mb-0 font-size-18">Starter</h4>
-
-
-                                    <div class="page-title-right">
-                                        <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Pages</a></li>
-                                            <li class="breadcrumb-item active">Starter</li>
-                                        </ol>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end page title -->
-
-                    </div> <!-- container-fluid -->
-                </div>
-                <!-- End Page-content -->
-
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="card">
-                            <div class="card-body">
-                
-                               
-                                
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="carousel-item active">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-7.jpg" alt="First slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-1.jpg" alt="Second slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="assets/images/media/sm-2.jpg" alt="Third slide">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                            </div> <!-- end card-body-->
-                        </div> <!-- end card-->
-                    </div> <!-- end col -->
-
-                <footer class="footer">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                2020 © Xeloro.
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="text-sm-right d-none d-sm-block">
-                                    Design & Develop by Myra
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-
-            </div>
-            <!-- end main content-->
-
-        </div>
-        <!-- END layout-wrapper -->
-
-        <!-- Overlay-->
-        <div class="menu-overlay"></div>
-
-
-        <!-- jQuery  -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/metismenu.min.js"></script>
-        <script src="assets/js/waves.js"></script>
-        <script src="assets/js/simplebar.min.js"></script>
-
-        <!-- App js -->
-        <script src="assets/js/theme.js"></script>
-
-    </body>
-
-</html>
