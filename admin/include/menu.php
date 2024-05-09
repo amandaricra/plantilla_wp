@@ -298,7 +298,7 @@
                                     <li><a href="pages-starter.html">Starter Page</a></li>
                                     <li><a href="pages-maintenance.html">Maintenance</a></li>
                                     <li><a href="preguntasfrecuentes.php">preguntas frecuentes</a></li>
-                                    <li><a href="formulario.php">Formulario</a></li>
+                                    <li><a href="contactanos.php">Contáctanos</a></li>
                                     <li><a href="pages-login.html">Login</a></li>
                                     <li><a href="pages-register.html">Register</a></li>
                                     <li><a href="pages-recoverpw.html">Recover Password</a></li>
