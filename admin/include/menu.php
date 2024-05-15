@@ -296,7 +296,7 @@
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li><a href="pages-invoice.html">Invoice</a></li>
                                     <li><a href="pages-starter.html">Starter Page</a></li>
-                                    <li><a href="pages-maintenance.html">Maintenance</a></li>
+                                    <li><a href="sobrenosotros.php">Sobre Nosotros</a></li>
                                     <li><a href="preguntasfrecuentes.php">preguntas frecuentes</a></li>
                                     <li><a href="contactanos.php">Contáctanos</a></li>
                                     <li><a href="pages-login.html">Login</a></li>
