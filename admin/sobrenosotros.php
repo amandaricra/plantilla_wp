@@ -34,20 +34,19 @@
             <!-- Left Sidebar End -->
             <main class="container mt-6 ">
         <div class="row ">
-            <div class="col-md-6 ">
-                <div class="section-content">
-                    <h2 class= "text-center">Nuestra Historia</h2>
-                    <p>"En SHOPING, nos dedicamos apasionadamente a ofrecer servicios de la más alta calidad, respaldados por un compromiso inquebrantable con la excelencia. Desde nuestros humildes comienzos en [año de fundación], nos hemos esforzado incansablemente por comprender y satisfacer las necesidades de nuestros clientes. Nos enorgullece superar constantemente sus expectativas, estableciendo así relaciones sólidas y duraderas basadas en la confianza y la satisfacción mutua."</p>
-                </div>
-            </div>
+        <div class="col-md-6">
+    <div class="section-content">
+        <h2 class="text-center">Nuestra Historia</h2>
+        <img src="https://img.freepik.com/free-photo/confident-business-team_23-2147807975.jpg?t=st=1715826384~exp=1715829984~hmac=a8337e3d6a9c2af3965ff367c4ec8fec2aa53f21b871ada1c909e992b78661a8&w=740" alt="Descripción de la imagen">
+    </div>
+</div>
 
-            <div class="col-md-6 ">
-                <div class="section-content">
-                    <h2 class= "text-center">Nuestro Equipo</h2>
-                    <p>"En SHOPING, nuestro mayor activo es nuestro equipo de profesionales altamente capacitados y dedicados. Cada miembro de nuestro equipo está comprometido con la excelencia en el servicio al cliente, trabajando incansablemente para brindar la mejor atención y asistencia en todo momento. Con una combinación de habilidades expertas y una actitud proactiva, nuestro equipo se esfuerza por superar las expectativas de nuestros clientes en cada interacción, asegurando así su completa satisfacción y fidelidad."</p>
-                </div>
-            </div>
-
+<div class="col-md-6">
+    <div class="section-content">
+        <h2 class="text-center">Nuestra Historia</h2>
+        <img src="https://img.freepik.com/free-photo/confident-business-team_23-2147807975.jpg?t=st=1715826384~exp=1715829984~hmac=a8337e3d6a9c2af3965ff367c4ec8fec2aa53f21b871ada1c909e992b78661a8&w=740" alt="Descripción de la imagen">
+    </div>
+</div>
             
         </div>
         
