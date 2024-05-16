@@ -37,16 +37,20 @@
         <div class="col-md-6">
     <div class="section-content">
         <h2 class="text-center">Nuestra Historia</h2>
-        <img src="https://img.freepik.com/free-photo/confident-business-team_23-2147807975.jpg?t=st=1715826384~exp=1715829984~hmac=a8337e3d6a9c2af3965ff367c4ec8fec2aa53f21b871ada1c909e992b78661a8&w=740" alt="Descripción de la imagen">
+        <img width="100%" src="https://img.freepik.com/free-photo/confident-business-team_23-2147807975.jpg?t=st=1715826384~exp=1715829984~hmac=a8337e3d6a9c2af3965ff367c4ec8fec2aa53f21b871ada1c909e992b78661a8&w=740" alt="Descripción de la imagen">
     </div>
 </div>
 
 <div class="col-md-6">
     <div class="section-content">
         <h2 class="text-center">Nuestra Historia</h2>
-        <img src="https://img.freepik.com/free-photo/confident-business-team_23-2147807975.jpg?t=st=1715826384~exp=1715829984~hmac=a8337e3d6a9c2af3965ff367c4ec8fec2aa53f21b871ada1c909e992b78661a8&w=740" alt="Descripción de la imagen">
+        <p>Somos más que una tienda de shopping, somos un destino donde la moda y la calidad se encuentran. Desde nuestros humildes comienzos como una pequeña boutique local, hemos crecido hasta convertirnos en una marca reconocida a nivel nacional. Fundada por amantes de la moda con una pasión por ofrecer productos excepcionales y un servicio al cliente incomparable, hemos mantenido nuestro compromiso con la excelencia en cada paso del camino.</p>
+        <p>Nuestra historia es una de dedicación y perseverancia. Nos esforzamos por seleccionar cuidadosamente cada artículo en nuestro inventario, asegurando que nuestros clientes encuentren solo lo mejor en moda, accesorios y estilo de vida. Desde elegantes prendas de vestir hasta los accesorios más chic, nuestra colección ofrece algo para cada gusto y ocasión.</p>
+        <p>Además de ofrecer productos de alta calidad, nos enorgullecemos de brindar una experiencia de compra incomparable. Nuestro equipo está aquí para ayudarte a encontrar el atuendo perfecto, ofreciendo asesoramiento experto y atención personalizada en cada visita. En nuestra tienda, no solo encontrarás moda, encontrarás inspiración y confianza para expresar tu estilo único.</p>
+        <p>Gracias por ser parte de nuestra historia. Esperamos seguir siendo tu destino preferido para todas tus necesidades de shopping, y esperamos poder acompañarte en cada paso de tu viaje de estilo.</p>
     </div>
 </div>
+
             
         </div>
         
