@@ -36,7 +36,7 @@
         <div class="row ">
         <div class="col-md-6">
     <div class="section-content">
-        <h2 class="text-center">Nuestra Historia</h2>
+        <h2 class="text-center"></h2>
         <img width="100%" src="https://img.freepik.com/free-photo/confident-business-team_23-2147807975.jpg?t=st=1715826384~exp=1715829984~hmac=a8337e3d6a9c2af3965ff367c4ec8fec2aa53f21b871ada1c909e992b78661a8&w=740" alt="Descripción de la imagen">
     </div>
 </div>
