@@ -10,12 +10,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href=" <?php bloginfo('template_url'); ?>/assets/images/favicon.ico">
 
         <!-- App css -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+        <link href=" <?php bloginfo('template_url'); ?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href=" <?php bloginfo('template_url'); ?>/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href=" <?php bloginfo('template_url'); ?>/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -64,7 +64,7 @@
     ?>
     <div class="col-lg-2 col-md-3 col-ms-6">
         <div class="card">
-            <img src="https://juntozstgsrvproduction.blob.core.windows.net/default-blob-images/200x200_ps5-slim-discja1_123238.jpg" alt="...">
+            <img src=" <?php bloginfo('template_url'); ?>/https://juntozstgsrvproduction.blob.core.windows.net/default-blob-images/200x200_ps5-slim-discja1_123238.jpg" alt="...">
             <div>
                 <h5 class="card-title">Título de la tarjeta</h5>
                 <p class="card-text">Un texto de ejemplo para construir sobre el título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
@@ -104,14 +104,14 @@
 
 
         <!-- jQuery  -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/metismenu.min.js"></script>
-        <script src="assets/js/waves.js"></script>
-        <script src="assets/js/simplebar.min.js"></script>
+        <script src=" <?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
+        <script src=" <?php bloginfo('template_url'); ?>/assets/js/bootstrap.bundle.min.js"></script>
+        <script src=" <?php bloginfo('template_url'); ?>/assets/js/metismenu.min.js"></script>
+        <script src=" <?php bloginfo('template_url'); ?>/assets/js/waves.js"></script>
+        <script src=" <?php bloginfo('template_url'); ?>/assets/js/simplebar.min.js"></script>
 
         <!-- App js -->
-        <script src="assets/js/theme.js"></script>
+        <script src=" <?php bloginfo('template_url'); ?>/assets/js/theme.js"></script>
 
     </body>
 
