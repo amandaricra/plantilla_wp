@@ -1,5 +1,33 @@
 
-            <header id="page-topbar">
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title> Xeloro - Admin & Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="MyraStudio" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="  <?php bloginfo('template_url'); ?>/assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href=" <?php bloginfo('template_url'); ?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href=" <?php bloginfo('template_url'); ?>/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href=" <?php bloginfo('template_url'); ?>/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            <div class="header-border"></div>
+
+<header id="page-topbar">
                 <div class="navbar-header">
 
                     <div class="d-flex align-items-left">
@@ -224,11 +252,21 @@
                             </span>
                         </a>
                     </div>
-
+            <?php
+            wp_nav_menu(
+                array(
+                  'theme_location' => 'menu_izquierdo',
+                  'container' => 'div' , 
+                  'container_id' => 'sidebar-menu' ,
+                  'items_wrap' => '<ul class="metismenu list-unstyled" id="side-menu">%3$s</ul>'
+                )
+              );
+            ?>
+            
                     <!--- Sidemenu -->
-                    <div id="sidebar-menu">
+                   <!---  <div id="sidebar-menu">
                         <!-- Left Menu Start -->
-                        <ul class="metismenu list-unstyled" id="side-menu">
+                       <!---  <ul class="metismenu list-unstyled" id="side-menu">
                             <li class="menu-title">Menu</li>
 
                             <li>
@@ -336,6 +374,7 @@
 
                         </ul>
                     </div>
+-->
                     <!-- Sidebar -->
                 </div>
             </div>

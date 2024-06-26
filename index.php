@@ -1,37 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <title> Xeloro - Admin & Dashboard Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-        <meta content="MyraStudio" name="author" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-        <!-- App favicon -->
-        <link rel="shortcut icon" href="  <?php bloginfo('template_url'); ?>/assets/images/favicon.ico">
-
-        <!-- App css -->
-        <link href=" <?php bloginfo('template_url'); ?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href=" <?php bloginfo('template_url'); ?>/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href=" <?php bloginfo('template_url'); ?>/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
-
-    </head>
-
-    <body>
-
-        <!-- Begin page -->
-        <div id="layout-wrapper">
-            <div class="header-border"></div>
-    
-            <?php  bloginfo('template_url'); ?>
-
-            <?php
-            include ("include/menu.php");
+         
+            <?php  
+            get_header();
             ?>
-
-
 
  <div class="main-content">
 
@@ -109,7 +80,44 @@
         </div> <!-- end col -->
     </div>
     <!-- end row-->
+<!-- start page title -->
+<div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <div class="container-fluid row">
+                                    <?php 
 
+
+if ( have_posts() ) :
+    while ( have_posts() ) : the_post();
+        
+   
+                                    ?>
+                                        <div class="col-lg-2 col-md-3 col-sm-6">
+                                            <div class="card">
+                                                <a href="<?php the_permalink(); ?>"> <?php
+                                                if ( has_post_thumbnail() ) {
+                                                    the_post_thumbnail( 'thumbnail', array( 'class' => 'card-img-top img-fluid' ));
+                                                }
+                                                 ?></a>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">  <?php the_title(); ?></h5>
+                                                    <p class="card-text">
+                                                    <?php the_excerpt()?>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php  endwhile;
+else :
+    _e( 'Nose encontraron productos en la categoria seleccionada', 'textdomain' );
+endif; ?>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
 </div>
 
 
@@ -121,29 +129,8 @@
                 <!-- End Page-content -->
                 
                 <?php
+                    get_footer();
                 include ("include/pie_pagina.php")
                 ?>
               
-            </div>
-            <!-- end main content-->
-
-        </div>
-        <!-- END layout-wrapper -->
-
-        <!-- Overlay-->
-        <div class="menu-overlay"></div>
-
-
-        <!-- jQuery  -->
-        <script src=" <?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
-        <script src=" <?php bloginfo('template_url'); ?>/assets/js/bootstrap.bundle.min.js"></script>
-        <script src=" <?php bloginfo('template_url'); ?>/assets/js/metismenu.min.js"></script>
-        <script src=" <?php bloginfo('template_url'); ?>/assets/js/waves.js"></script>
-        <script src=" <?php bloginfo('template_url'); ?>/assets/js/simplebar.min.js"></script>
-
-        <!-- App js -->
-        <script src="assets/js/theme.js"></script>
-
-    </body>
-
-</html>
+          
